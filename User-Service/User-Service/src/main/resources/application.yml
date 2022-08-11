@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: User-Service
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
